@@ -11,15 +11,6 @@
         ngpios = <16>;
         int-gpios = <&xiao_d 2 GPIO_ACTIVE_LOW>;
     };
-    ext2: mcp23017@21 {
-        compatible = "microchip,mcp230xx";
-        status = "okay";
-        gpio-controller;
-        reg = <0x21>;
-        #gpio-cells = <2>;
-        ngpios = <16>;
-        int-gpios = <&xiao_d 3 GPIO_ACTIVE_LOW>;
-    };
 };
 
 nice_view_spi: &xiao_spi {
