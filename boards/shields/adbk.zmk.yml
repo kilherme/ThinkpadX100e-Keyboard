@@ -1,10 +1,8 @@
 file_format: "1"
-id: adbk
-name: Apple Desktop Bus Keyboard
+id: X100e
+name: Lenovo Thinkpad laptop Keyboard
 type: shield
 url: https://github.com/mattchesters/zmk-apple-desktop-bus-keyboard
-requires: [seeed_xiao, i2c_oled]
+requires: [seeed_xiao]
 features:
   - keys
-  - display
-  - encoder
