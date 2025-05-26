@@ -53,25 +53,31 @@
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "row2col";
         col-gpios
-            = <&ext1 6 GPIO_ACTIVE_LOW>
-            , <&ext1 5 GPIO_ACTIVE_LOW>
-            , <&ext1 4 GPIO_ACTIVE_LOW>
-            , <&ext1 3 GPIO_ACTIVE_LOW>
-            , <&ext1 2 GPIO_ACTIVE_LOW>
-            , <&ext1 1 GPIO_ACTIVE_LOW>
-            , <&ext1 0 GPIO_ACTIVE_LOW>
+            = <&pro_micro 1 GPIO_ACTIVE_LOW>
+            , <&pro_micro 2 GPIO_ACTIVE_LOW>
+            , <&pro_micro 3 GPIO_ACTIVE_LOW>
+            , <&pro_micro 4 GPIO_ACTIVE_LOW>
+            , <&pro_micro 5 GPIO_ACTIVE_LOW>
+            , <&pro_micro 6 GPIO_ACTIVE_LOW>
+            , <&pro_micro 7 GPIO_ACTIVE_LOW>
+            , <&pro_micro 8 GPIO_ACTIVE_LOW>
             ;
         row-gpios
-            = <&ext1 8 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&ext1 9 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            = <&ext1 1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&ext1 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&ext1 3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&ext1 4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&ext1 5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&ext1 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&ext1 7 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             , <&ext1 8 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&ext2 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&ext1 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&ext1 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             , <&ext1 12 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             , <&ext1 13 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             , <&ext1 14 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&ext1 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&ext1 9 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&ext1 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&ext1 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&ext1 16 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             ;
 
     };
