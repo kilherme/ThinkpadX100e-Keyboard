@@ -40,11 +40,9 @@
         wakeup-source;
 
         input-gpios
-            = <&ext1 13 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&ext1 14 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            = <&ext1 9 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             , <&ext1 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             , <&ext1 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&ext1 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             ;
 
     };
