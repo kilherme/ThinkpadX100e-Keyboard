@@ -71,6 +71,7 @@
             , <&ext1 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             , <&ext1 7 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             , <&ext1 8 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&ext1 9 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             , <&ext1 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             , <&ext1 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             , <&ext1 12 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
